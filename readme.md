@@ -15,3 +15,5 @@
 ---
 
 # Exercicícos
+
+## 1 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/gerando-mensagens)
