@@ -18,4 +18,4 @@
 
 ## 1 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/gerando-mensagens)
 
-## 2 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
+## 2 - [Calculando desconto](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
