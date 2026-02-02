@@ -19,3 +19,5 @@
 ## 1 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/gerando-mensagens)
 
 ## 2 - [Calculando desconto](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
+
+## 3 - [Calculando a média de duas notas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-media-notas)
