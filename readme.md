@@ -21,3 +21,5 @@
 ## 2 - [Calculando desconto](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
 
 ## 3 - [Calculando a média de duas notas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-media-notas)
+
+## 4 - [Verificando se um número é par ou ímpar](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/verificando-par-impar)
