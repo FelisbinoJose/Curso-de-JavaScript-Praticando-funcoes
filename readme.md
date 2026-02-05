@@ -25,3 +25,5 @@
 ## 4 - [Verificando se um número é par ou ímpar](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/verificando-par-impar)
 
 ## 5 - [Cálculo de frete por distância](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-frete)
+
+## 6 - [Mensagem pós-processamento](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-pos-processamento)
