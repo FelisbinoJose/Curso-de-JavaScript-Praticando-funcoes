@@ -15,3 +15,4 @@ function mensagemPersonalizada(nomeCliente, tipoCliente) {
     }
 }
 
+module.exports = {mensagemPersonalizada, processarPedido};
