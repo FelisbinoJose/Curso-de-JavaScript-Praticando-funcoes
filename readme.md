@@ -27,3 +27,5 @@
 ## 5 - [Cálculo de frete por distância](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-frete)
 
 ## 6 - [Mensagem pós-processamento](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-pos-processamento)
+
+## 7 - [Mensagem com atraso](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-com-atraso)
