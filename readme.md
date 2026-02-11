@@ -1,31 +1,32 @@
-# Faça esse curso de JavaScript e:
+# Mensagem com atraso
 
-> - Revise o conceito de função em lógica de programação.
+## Descrição
 
-> - Pratique a sintaxe dos tipos de função usados em JavaScript.
-
-> - Pratique o uso dos parâmetros e retorno.
-
-> - Entenda o uso da recursão em funções.
-
-> - Revise as diferenças entre declaração de função, expressão de função e arrow function.
-
-> - Pratique o uso de funções em lógica de programação com exercícios.
+Imagine que você está desenvolvendo uma interface de atendimento online. Quando o usuário envia uma pergunta, o sistema precisa simular que está "pensando" ou "processando a resposta", e só depois exibir a resposta final.
 
 ---
 
-# Exercicícos
+## Objetivo
 
-## 1 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/gerando-mensagens)
+Sua tarefa é criar uma função chamada `responderUsuario`, que receba dois parâmetros:
 
-## 2 - [Calculando desconto](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
+   > - Nome do usuário.
 
-## 3 - [Calculando a média de duas notas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-media-notas)
+   > - Uma função de callback que será executada após 3 segundos.
 
-## 4 - [Verificando se um número é par ou ímpar](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/verificando-par-impar)
+--- 
 
-## 5 - [Cálculo de frete por distância](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-frete)
+## Exemplo de entrada
 
-## 6 - [Mensagem pós-processamento](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-pos-processamento)
+```js
+responderUsuario("Camila", mostrarResposta);
+```
 
-## 7 - [Mensagem com atraso](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-com-atraso)
+---
+
+## Saída esperada (com 3 segundos de atraso)
+
+```txt
+Processando sua pergunta...
+Olá, Camila! Aqui está a resposta para sua dúvida.
+```
