@@ -1,33 +1,42 @@
-# Faça esse curso de JavaScript e:
+# Avaliando a pontuação de um usuário
 
-> - Revise o conceito de função em lógica de programação.
+## Descrição
 
-> - Pratique a sintaxe dos tipos de função usados em JavaScript.
+Imagine que você está desenvolvendo um sistema de avaliação para um jogo educativo. Ao final de cada fase, o jogador acumula uma pontuação total, e o sistema precisa avaliar se ele:
 
-> - Pratique o uso dos parâmetros e retorno.
+   > - Foi `aprovado`, se a pontuação for `igual ou maior que 70`.
 
-> - Entenda o uso da recursão em funções.
+   > - Precisa de `reforço`, se a pontuação estiver entre `50 e 69`.
 
-> - Revise as diferenças entre declaração de função, expressão de função e arrow function.
-
-> - Pratique o uso de funções em lógica de programação com exercícios.
+   > - Foi `reprovado`, se a pontuação for `menor que 50`.
 
 ---
 
-# Exercicícos
+## Objetivo
 
-## 1 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/gerando-mensagens)
+Sua tarefa é criar uma função chamada `avaliarDesempenho`, que receba dois parâmetros:
 
-## 2 - [Calculando desconto](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
+   > - Pontuação final do jogador.
 
-## 3 - [Calculando a média de duas notas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-media-notas)
+   > - Uma `função de callback` que será usada para `exibir uma mensagem personalizada` com base no resultado da avaliação.
 
-## 4 - [Verificando se um número é par ou ímpar](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/verificando-par-impar)
+---
 
-## 5 - [Cálculo de frete por distância](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-frete)
+## Exemplo de entrada:
 
-## 6 - [Mensagem pós-processamento](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-pos-processamento)
+```js
+avaliarDesempenho(82, gerarMensagem);
+```
 
-## 7 - [Mensagem com atraso](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-com-atraso)
+---
 
-## 8 - [Avaliando a pontuação de um usuário](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/avaliando-pontuacao)
+## Saída esperada:
+
+```txt
+Pontuação: 82
+Parabéns! Você foi aprovado!
+```
+
+----
+
+
