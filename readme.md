@@ -31,3 +31,5 @@
 ## 7 - [Mensagem com atraso](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-com-atraso)
 
 ## 8 - [Avaliando a pontuação de um usuário](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/avaliando-pontuacao)
+
+## 9 - [Classificador de consumo elétrico](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/classificador-consumo)
