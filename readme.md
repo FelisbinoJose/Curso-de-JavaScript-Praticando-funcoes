@@ -33,3 +33,5 @@
 ## 8 - [Avaliando a pontuação de um usuário](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/avaliando-pontuacao)
 
 ## 9 - [Classificador de consumo elétrico](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/classificador-consumo)
+
+## 10 - [Sistema de sorteio com avaliação de participantes](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/sistema-sorteio)
