@@ -1,37 +1,55 @@
-# Faça esse curso de JavaScript e:
+# Sistema de sorteio com avaliação de participantes
 
-> - Revise o conceito de função em lógica de programação.
+## Descrição
 
-> - Pratique a sintaxe dos tipos de função usados em JavaScript.
+Imagine que você está desenvolvendo um sistema de sorteio interativo para um evento online. Os participantes se inscrevem com um nome e uma pontuação (baseada em atividades realizadas). O sistema deve:
 
-> - Pratique o uso dos parâmetros e retorno.
+- `Sortear aleatoriamente` um nome da lista de participantes.
 
-> - Entenda o uso da recursão em funções.
+- `Exibir esse nome com um pequeno atraso` (como se fosse um suspense).
 
-> - Revise as diferenças entre declaração de função, expressão de função e arrow function.
-
-> - Pratique o uso de funções em lógica de programação com exercícios.
+- `Avaliar se o participante foi premiado ou não com base na pontuação:`
+    
+    - `Acima de 80:` "Parabéns, você foi premiado!"
+    - `Entre 50 e 80:` "Você quase conseguiu! Fique de olho nos próximos sorteios."
+    - `Abaixo de 50:` "Infelizmente, não foi dessa vez."
 
 ---
 
-# Exercicícos
+## Objetivo
 
-## 1 - [Gerando mensagens personalizadas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/gerando-mensagens)
+Sua missão é criar:
 
-## 2 - [Calculando desconto](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-desconto)
+   > - Uma função para sortear um nome aleatoriamente.
 
-## 3 - [Calculando a média de duas notas](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-media-notas)
+   > - Uma função para exibir o nome sorteado com 2 segundos de atraso.
 
-## 4 - [Verificando se um número é par ou ímpar](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/verificando-par-impar)
+   > - Uma função para avaliar a pontuação.
 
-## 5 - [Cálculo de frete por distância](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/calculando-frete)
+   > - Uma função final que organize o fluxo completo do sorteio.
 
-## 6 - [Mensagem pós-processamento](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-pos-processamento)
+---
 
-## 7 - [Mensagem com atraso](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/mensagem-com-atraso)
+## Exemplo de entrada:
 
-## 8 - [Avaliando a pontuação de um usuário](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/avaliando-pontuacao)
+```
+const participantes = [
+  { nome: "Laura", pontuacao: 92 },
+  { nome: "Pedro", pontuacao: 67 },
+  { nome: "Clara", pontuacao: 44 }
+];
+ 
+realizarSorteio(participantes);
+```
 
-## 9 - [Classificador de consumo elétrico](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/classificador-consumo)
+---
 
-## 10 - [Sistema de sorteio com avaliação de participantes](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/sistema-sorteio)
+## Saída esperada:
+
+```txt
+Sorteando...
+Participante sorteado: Pedro
+Pontuação: 67
+Você quase conseguiu! Fique de olho nos próximos sorteios.
+````
+
