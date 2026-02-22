@@ -35,3 +35,5 @@
 ## 9 - [Classificador de consumo elétrico](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/classificador-consumo)
 
 ## 10 - [Sistema de sorteio com avaliação de participantes](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/sistema-sorteio)
+
+## 11 - [Contagem regressiva recursiva](https://github.com/FelisbinoJose/Curso-de-JavaScript-Praticando-funcoes/tree/contagem-regressiva-recursiva)
